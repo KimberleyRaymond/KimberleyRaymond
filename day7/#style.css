@@ -1,0 +1,17 @@
+*{box-sizing: border-box;}
+.navBar{
+    background-color: black;
+    color: peru;
+}
+.nav_link{
+    color: palegreen;
+    display: inline-block;
+    padding: 1em 2em;
+    font: 1.3em;
+    text-decoration: none;
+}
+.nav_link:hover{
+    color: purple;
+    background-color: pink;
+    font-weight: 900;
+}
