@@ -46,6 +46,7 @@ img{
     font-family: 'Arial Black';
 }
 /*--------CARDS--------*/
+.title{border-bottom: ridge 1px crimson;}
 .container{
     display: flex;
     flex-wrap: wrap;
@@ -80,3 +81,11 @@ img{
     text-decoration: none;
     font-weight: bolder;
 }
+/*-----FOOTER-----*/
+.copyrighted{
+    background-color: blueviolet;
+    padding: 1em;
+    color:plum ;
+    text-align: center;
+}
+    
