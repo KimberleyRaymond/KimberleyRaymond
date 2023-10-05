@@ -1,0 +1,13 @@
+*{box-sizing: border-box;}
+html{scroll-behavior: smooth;}
+.title{
+    text-align: center;
+    color: pink;
+    font-family: georgia;
+    transition: ease-in-out 2s;
+}
+.title:hover{
+    font-family: alegerian;
+    color: aquamarine;
+    text-shadow: 1px 1px 5px black;
+}
