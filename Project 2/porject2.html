@@ -1,0 +1,331 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 class="bg-danger p-3 text-center text-light">Luxury Houses</h1>
+    <h2 class="text-dark p-3">If you need a nice house come by now </h2>
+
+    <div class="row">
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <img src="images/House 1.webp" class="card-img img-fluid">
+                <h2 class="card-title">Flower bomb</h2>
+                <p class="subtitle">$49.99</p>
+                <p class="card-text p-2">This scent is nice and light not to harsh can be used anywhere!</p>
+                <!----Modal trigger 2----->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal2" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!----Modal window 2---->
+            <section id="modal2" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal2Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal2Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 1.webp" width="35%" class="rounded m-1">
+                            <figcaption>Good perfume to buy $49.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <img src="images/House 2.webp" class="card-img img-fluid">
+                <h2 class="card-title">Night lantern</h2>
+                <p class="subtitle">$59.99</p>
+                <p class="card-text p-2">This perfume is really light good to use anytime keep in your bag!</p>
+                <!---Modal trigger 3---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal3" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 3--->
+            <section id="modal3" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal3Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal3Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 2.webp" width="35%" class="rounded m-1">
+                            <figcaption>You wont regret it $59.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+            </section>
+        </section>
+
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header">
+            </div>
+            <div class="card-body">
+                <img src="images/House 3.webp" class="card-img img-fluid">
+                <h2 class="card-title">Gucci Flora</h2>
+                <p class="subtitle">$69.99</p>
+                <p class="card-text p-2">This perfume has more of a softer calming scent!</p>
+                <!---Modal trigger 4---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal4" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 4---->
+            <section id="modal4" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal4Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal4Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 3.webp" width="35%" class="rounded m-1">
+                            <figcaption>Best choice to get $69.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+
+                </div>
+
+            </section>
+        </section>
+
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <img src="images/House 4.webp" class="card-img img-fluid">
+                <h2 class="card-title">Coco Channel</h2>
+                <p class="subtitle">$99.99</p>
+                <p class="card-text p-2"> This scent is more soothing and good for going out special events!
+                </p>
+                <!---Modal trigger 5---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal5" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 5----->
+            <section id="modal5" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal5Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal5Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 4.webp" width="35%" class="rounded m-1">
+                            <figcaption>Smelling good all day $99.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <img src="images/House 5.webp" class="card-img img-fluid">
+                <h2 class="card-title">Coco Channel</h2>
+                <p class="subtitle">$99.99</p>
+                <p class="card-text p-2"> This scent is more soothing and good for going out special events!
+                </p>
+                <!---Modal trigger 6---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal6" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 6----->
+            <section id="modal6" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal6Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal6Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 5.webp" width="35%" class="rounded m-1">
+                            <figcaption>Smelling good all day $99.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <img src="images/House 6.webp" class="card-img img-fluid">
+                <h2 class="card-title">Coco Channel</h2>
+                <p class="subtitle">$99.99</p>
+                <p class="card-text p-2"> This scent is more soothing and good for going out special events!
+                </p>
+                <!---Modal trigger 7---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal7" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 7----->
+            <section id="modal7" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal7Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal7Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 6.webp" width="35%" class="rounded m-1">
+                            <figcaption>Smelling good all day $99.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <img src="images/House 7.webp" class="card-img img-fluid">
+                <h2 class="card-title">Coco Channel</h2>
+                <p class="subtitle">$99.99</p>
+                <p class="card-text p-2"> This scent is more soothing and good for going out special events!
+                </p>
+                <!---Modal trigger 8---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal5" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 8----->
+            <section id="modal5" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal8Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal8Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 7.webp" width="35%" class="rounded m-1">
+                            <figcaption>Smelling good all day $99.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        
+        <section class="card col-lg-2 col-sm-10 m-5 ">
+            <div class="card-header"></div>
+            <div class="card-body">
+                <img src="images/House 8.webp" class="card-img img-fluid">
+                <h2 class="card-title">Coco Channel</h2>
+                <p class="subtitle">$99.99</p>
+                <p class="card-text p-2"> This scent is more soothing and good for going out special events!
+                </p>
+                <!---Modal trigger ---->
+                <button type="button" class="btn btn-danger m-3" data-bs-target="#modal5" data-bs-toggle="modal">Add to
+                    cart</button>
+            </div>
+            <!---Modal window 9----->
+            <section id="modal9" class="modal face" data-bs-backdrop="static" aria-hidden="true"
+                aria-labelledby="modal9Label">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <header class="modal-header bg-danger text-light">
+                            <h2 class="modal-title bg-danger" id="modal9Label">Add to cart</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+                        </header>
+                        <main class="modal-body"></main>
+                        <em><strong>Buy now</strong></em>
+                        <figure>
+                            <img src="images/House 8.webp" width="35%" class="rounded m-1">
+                            <figcaption>Smelling good all day $99.99</figcaption>
+                        </figure>
+                        <footer class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="https://www.qcc.cuny.edu" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-danger">Explore more</a>
+                        </footer>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
