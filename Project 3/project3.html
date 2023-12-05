@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
     <title>Kimberley Raymond</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="#style.css">
   </head>
   <body>
     <nav class="navbar bg-danger navbar-light navbar-expand-sm" style="font-size: 1.5em;" >
@@ -26,19 +27,47 @@
     </div>
   </div> <!-- end of collapse-->
 </nav>
+
+<div class="Intro">
     <h1 class="bg-danger m-3 text-center text-light">This is me</h1>
     <h2 class="text-danger p-3">Where it begins</h2>
     <p class="p-3">Hey I'm Kimberley Raymond I was born on January 21st, 2006 little things to know about me my favorite color is pink I'm 17 years old I love eating sweets my top ones are sugar cookies, cake mix ice cream, vanilla and red velvet cake. I love being around friends and family, I'm always up for trying new places whether it's eating somewhere new or just doing activities.  One thing I could say I love is BOUNCY HOUSES! 
     That will always be a thing for me I don't care how old I am. I love watching a good show or movie and it has to be something with romance. If theirs no romance I don't watch it simple. I absolutely love babies hopefully one day becoming a pediatric nurse and sonographer.</p>
-
-    <div id="Images">
-      <img src="images/Go kart racing.jpg" width="25%" class="m-3">
-      <img src="images/Red velvet cake.jpg" width="20%" class="m-3">
-      <img src="images/sugar cookies.jpg" width="20%" class="m-3">
-      <img src="images/vanilla cake.jpg" width="20%" class="m-3">
-    </div>
+  </div>
 
 
+    <h1 class="bg-danger p-3 text-center text-light">Favorites</h1>
+<h2 class="text-danger p-3"></h2>
+<p class="p-3">Some of my fvorite things </p>
+<!---Modal trigger 1-->
+<button type="button" class="btn btn-danger m-3" data-bs-target="#modal1" data-bs-toggle="modal">Images of Fall time</button>
+<!---Modal window 1-->
+<section id="modal1" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal1Lablel">
+<div class="modal-dialog">
+    <div class="modal-content">
+<header class="modal-header bg-danger text-light">
+    <h2 class="modal-title bg-danger" id="modal1Lablel">favorite</h2>
+ <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+</header>
+<main class="modal-body">
+<em><strong>Actvities</strong></em>
+<figure>
+<img src="images/Go kart racing.jpg" width="45%" class="rounded m-1">
+<img src="images/Bouncy Houses.jpg" width="45%" class="rounded m-1">
+<figcaption>Pumkin Season</figcaption>
+</figure>
+<figure>
+    <main class="modal-body">
+        <em><strong>Sweets</strong></em>
+        <figure>
+        <img src="images/sugar cookies.jpg" width="30%" class="rounded m-1">
+        <img src="images/vanilla cake.jpg" width="30%" class="rounded m-1">
+        <img src="images/Red velvet cake.jpg" width="30%" class="rounded m-1">
+      
+        <figcaption>Autmn</figcaption>
+</figure>
+</main>
+   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>
