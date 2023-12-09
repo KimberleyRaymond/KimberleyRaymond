@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div>
-    <nav class="navbar bg-danger navbar-light navbar-expand-sm" >
+    <div class="Intro">
+      <nav class="navbar  navbar-light navbar-expand-sm" style="font-size: 1.5em;" >
       <!-- Create a div for navbar-brand -->
       <a class=navbar-brand href='#'></a>
   
@@ -22,17 +22,25 @@
       <div class='collapse navbar-collapse ms-5' id='collapseTab'>
         
         <!-- nav list-->
-
-        <div class="Intro">
-    <div class='navbar-nav mx-auto'>
-      <a href="#Home" class="nav-item nav-link active p-3"><strong>Home</strong></a>
-      <a href="#Images" class="nav-item nav-link p-3"><strong>Images</strong></a>
-      <a href="#Friends" class="nav-item nav-link p-3"><strong>Friends</strong></a>
-      <a href="#Food" class="nav-item nav-link p-3"><strong>Food</strong></a>
-    </div>
+        <nav class="navBar m-3">
+          <a href="#home" class="nav_link">Home</a>
+          <a href="#activites"class="nav_link">Activities</a>
+          <a href="#food"  class="nav_link">Food</a>
+          <a href="#silly moments" class="nav_link">Silly moments </a>
+      </nav>
   </div> <!-- end of collapse-->
 </nav>
 
+<!-- VIDEO-->
+<div class=" m-3">
+<div class="embed-responsive embed-responsive-21by9" >
+  <iframe class="embed-responsive-item" src="videos/Video 1.mp4" width="650" height="540" class="titler"></iframe>
+  <iframe class="embed-responsive-item" src="videos/Video 2.mp4" width="650" height="540" class="title"></iframe>
+</div>
+
+<!-- END OF VIDEO -->
+</main>
+   
 <div>
     <h1 class="bg-danger m-3 text-center text-light">This is me</h1>
     <h2 class="text-danger p-3">Where it begins</h2>
@@ -41,43 +49,12 @@
   </div>
 
 
-    <h1 class="bg-danger p-3 text-center text-light">Favorites</h1>
-<h2 class="text-danger p-3"></h2>
-<p class="p-3">Some of my fvorite things </p>
-<!---Modal trigger 1-->
-<button type="button" class="btn btn-danger m-3" data-bs-target="#modal1" data-bs-toggle="modal">Images of Fall time</button>
-<!---Modal window 1-->
-<section id="modal1" class="modal face" data-bs-backdrop="static" aria-hidden="true" aria-labelledby="modal1Lablel">
-<div class="modal-dialog">
-    <div class="modal-content">
-<header class="modal-header bg-danger text-light">
-    <h2 class="modal-title bg-danger" id="modal1Lablel">favorite</h2>
- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
-</header>
-<main class="modal-body">
-<em><strong>Actvities</strong></em>
-<figure>
-<img src="images/Go kart racing.jpg" width="45%" class="rounded m-1">
-<img src="images/Bouncy Houses.jpg" width="45%" class="rounded m-1">
-<figcaption>Pumkin Season</figcaption>
-</figure>
-<figure>
-    <main class="modal-body">
-        <em><strong>Sweets</strong></em>
-        <figure>
-        <img src="images/sugar cookies.jpg" width="30%" class="rounded m-1">
-        <img src="images/vanilla cake.jpg" width="30%" class="rounded m-1">
-        <img src="images/Red velvet cake.jpg" width="30%" class="rounded m-1">
-      
-        <figcaption>Autmn</figcaption>
-</figure>
-<!-- VIDEO-->
-<div class="embed-responsive embed-responsive-21by9 videos" >
-  <iframe class="embed-responsive-item" src="videos/"></iframe>
-</div>
+    <h1 class="bg-danger p-3 text-center text-light"></h1>
 
-<!-- END OF VIDEO -->
-</main>
+      
+       
+</figure>
+
    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
