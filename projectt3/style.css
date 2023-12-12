@@ -42,7 +42,15 @@ margin: 2em;
 }
 
 .Dream{
+    width: 10%;
+}
+.nurse{
+    margin-right: 3em;
+    
+}
+.Dream1{
     text-align: center;
-    width: 1000px;
+    width: 30%;
    display: flex;
+
 }
