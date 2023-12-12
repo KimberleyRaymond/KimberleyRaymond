@@ -28,5 +28,21 @@ font-family: Georgia;
     color: rgb(134, 63, 87);
     font-family: georgia;
     margin: 2em;
-    font-size: 1.3em;
+    font-size: 1.3em;}
+
+
+.job{
+    background-color:rgb(250, 139, 204); 
+    color: rgb(134, 63, 87);
+text-align: center;
+font-size: 2.4em;
+font-family: Georgia;
+margin: 2em;
+
+}
+
+.Dream{
+    text-align: center;
+    width: 1000px;
+   display: flex;
 }
