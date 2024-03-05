@@ -7,4 +7,9 @@
 bill=float(input("Enter the bill amount :$"))
 tip=int(input("Enter the tip percentage : "))
 tipAmount= (tip/100)*bill
-#b
+print(tipAmount)
+#second example
+bill=float(input("Enter the bill amount :$"))
+tip=int(input("Enter the tip percentage : ") )
+tipAmount=(tip/100)*bill
+print(tipAmount)
